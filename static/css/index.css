@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+html, body {
+  height: 100%;
+}
+
+header {
+  height: 100%;
+}
+header > img {
+  height: 100%;
+  width: 100%;
+}
+header > div.title {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  right: 200px;
+  top: 100px;
+}
+header > div.title > p {
+  color: rgb(100, 100, 100);
+}
+
+div.main {
+  height: 100%;
+}
+div.main div.center {
+  height: 100%;
+  display: flex;
+}
+div.main div.center > div.left {
+  height: 100%;
+  width: 35%;
+  position: relative;
+}
+div.main div.center > div.left div.new {
+  position: absolute;
+  z-index: 3;
+  top: 100px;
+  left: 100px;
+  color: rgb(200, 200, 200);
+}
+div.main div.center > div.left div.new * {
+  margin: 10px;
+}
+div.main div.center > div.left div.right-border {
+  position: absolute;
+  z-index: 2;
+  width: 4px;
+  height: 0;
+  background-color: red;
+  right: 0;
+  transition: 2.5s;
+  top: 0;
+}
+div.main div.center > div.left img {
+  width: 100%;
+  height: 100%;
+}
+div.main div.center > div.left > .image {
+  position: absolute;
+  transition: 2s;
+}
+div.main div.center > div.right {
+  width: 65%;
+  height: 100%;
+  display: flex;
+  background-color: white;
+  z-index: 2;
+}
+div.main div.center > div.right > * {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+div.main div.center > div.right > * > a {
+  width: 60%;
+  font-size: 60px;
+  color: rgb(100, 100, 100);
+  text-decoration: none;
+  font-weight: 100 !important;
+}
+div.main div.center > div.right > * > div.link {
+  width: 60%;
+  color: rgb(100, 100, 100);
+  padding: 10px;
+}
+div.main div.center > div.right > * > div.link > a {
+  color: rgb(50, 50, 50);
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 100 !important;
+  transition: 1s;
+}
+div.main div.center > div.right > * > div.link > a:hover {
+  color: brown;
+  font-size: 22px;
+}
+div.main div.center > div.right > * > div.link > p {
+  color: rgb(100, 100, 100);
+  font-weight: 100 !important;
+}/*# sourceMappingURL=index.css.map */
